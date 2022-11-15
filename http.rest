@@ -1,0 +1,22 @@
+###
+POST https://3000-arunk555-reactadmin-0yh2xwuj064.ws-us74.gitpod.io/api/v1.0/subscriber
+Content-Type: application/json
+
+{
+    "name": "sfsdf Test",
+    "email": "sfs@test.com",
+    "age": 12
+}
+
+###
+DELETE https://3000-arunk555-reactadmin-0yh2xwuj064.ws-us74.gitpod.io/api/v1.0/subscriber/637392445958c7fa6b9cb258
+
+###
+PATCH https://3000-arunk555-reactadmin-0yh2xwuj064.ws-us74.gitpod.io/api/v1.0/subscriber/63738f3404116f452f0f2c4c
+Content-Type: application/json
+
+{
+  "name": "Aruntsttst Test",
+   "email": "sfs@test.com",
+   "age": null  
+}
