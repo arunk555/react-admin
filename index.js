@@ -1,6 +1,8 @@
-const app = require('./app');
-const PORT= process.env.APP_PORT || 4000;
+const app = require("./app");
 
-app.listen(PORT, function(){
- console.log("Express server is listening on the port %d in %s mode.",this.address().port, app.settings.env);
+const { API_PORT } = process.env;
+const port = process.env.PORT || API_PORT;
+
+app.listen(port || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
