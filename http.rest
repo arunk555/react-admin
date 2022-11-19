@@ -20,3 +20,13 @@ Content-Type: application/json
    "email": "sfs@test.com",
    "age": null  
 }
+
+###
+GET  https://3000-arunk555-reactadmin-0yh2xwuj064.ws-us77.gitpod.io/api/v1.0/admin/register
+Content-Type: application/json
+
+{
+  "name": "Arun",
+  "password": "test",
+  "email": "aruncse07@gmail.com"
+}
