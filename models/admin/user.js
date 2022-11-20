@@ -2,10 +2,10 @@ const { Schema, model } = require('mongoose');
 const schema=new Schema({
     id:{
        type: Number,
-       required: true,
        autoincrement: true,
        unique: true,
-       createindex: true
+       createindex: true,
+       required: true
     },
     name:{
         type: String,
@@ -37,4 +37,4 @@ const schema=new Schema({
     }
 });
 
-module.exports=model("adminlogin", schema);
+module.exports=model("adminlogins", schema);

@@ -1,10 +1,10 @@
 ###
-POST https://3000-arunk555-reactadmin-0yh2xwuj064.ws-us74.gitpod.io/api/v1.0/subscriber
+POST https://3000-arunk555-reactadmin-0yh2xwuj064.ws-us77.gitpod.io/api/v1.0/subscriber
 Content-Type: application/json
 
 {
-    "name": "sfsdf Test",
-    "email": "sfs@test.com",
+    "name": "rewiwer",
+    "email": "sdfsd@test.com",
     "age": 12
 }
 
@@ -26,7 +26,7 @@ GET  https://3000-arunk555-reactadmin-0yh2xwuj064.ws-us77.gitpod.io/api/v1.0/adm
 Content-Type: application/json
 
 {
-  "name": "Arun",
+  "name": "New Testt",
   "password": "test",
-  "email": "aruncse07@gmail.com"
+  "email": "test10@gmail.com"
 }
