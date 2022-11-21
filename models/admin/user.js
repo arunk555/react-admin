@@ -37,4 +37,14 @@ const schema=new Schema({
     }
 });
 
+schema.methods.getName=function(){
+    return `${this.name}`;
+}
+
+schema.pre('save', function(next) {
+    
+});
+
+
+
 module.exports=model("adminlogins", schema);
