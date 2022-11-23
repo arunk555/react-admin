@@ -22,11 +22,11 @@ Content-Type: application/json
 }
 
 ###
-GET  https://3000-arunk555-reactadmin-0yh2xwuj064.ws-us77.gitpod.io/api/v1.0/admin/register
+POST https://3000-arunk555-reactadmin-0yh2xwuj064.ws-us77.gitpod.io/api/v1.0/admin/register
 Content-Type: application/json
 
 {
-  "name": "New Testt",
+  "name": "sdfsd Testt",
   "password": "test",
-  "email": "test10@gmail.com"
+  "email": "demo4@gmail.com"
 }

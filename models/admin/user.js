@@ -3,13 +3,11 @@ const { Schema, model } = require('mongoose');
 const sessionschema= new Schema({
     token:{
         type: String,
-        default: null,
-        required: true
+        default: null
     },
     refrestoken:{
         type: String,
-        default: null,
-        required: true
+        default: null
     }
 });
 
@@ -41,7 +39,14 @@ const schema=new Schema({
         default: null,
         required: true
     },
-    sessions: sessionschema,
+    token:{
+        type: String,
+        default: null
+    },
+    refrestoken:{
+        type: String,
+        default: null
+    },
     createdAt:{
         type: Date,
         default:()=>Date.now()
@@ -56,9 +61,9 @@ schema.methods.getName=function(){
     return `${this.name}`;
 }
 
-schema.pre('save', function(next) {
+/*schema.pre('save', function(next) {
     
-});
+});*/
 
 
 
