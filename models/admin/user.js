@@ -1,4 +1,18 @@
 const { Schema, model } = require('mongoose');
+
+const sessionschema= new Schema({
+    token:{
+        type: String,
+        default: null,
+        required: true
+    },
+    refrestoken:{
+        type: String,
+        default: null,
+        required: true
+    }
+});
+
 const schema=new Schema({
     id:{
        type: Number,
@@ -27,6 +41,7 @@ const schema=new Schema({
         default: null,
         required: true
     },
+    sessions: sessionschema,
     createdAt:{
         type: Date,
         default:()=>Date.now()
